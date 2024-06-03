@@ -6,7 +6,6 @@ function carregar(){
     var minuto = data.getMinutes()
     msg.innerHTML = `Agora são ${hora}:${minuto}`
 
-
     if(hora >= 0 && hora < 12){
         //Bom dia
         img.src = 'imagem/fotoasnha.png'
